@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>كودّي | نحوّل فكرتك لبرنامج بالذكاء الاصطناعي</title>
+<meta name="description" content="كودّي: تطبيقات ومواقع للدكاكين والعيادات والمشاريع الصغيرة، تُبنى بالذكاء الاصطناعي وتُختبر وتُسلَّم جاهزة.">
+<meta name="theme-color" content="#14213D">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:title" content="كودّي | نحوّل فكرتك لبرنامج بالذكاء الاصطناعي">
+<meta property="og:description" content="تطبيقات ومواقع للدكاكين والعيادات والمشاريع الصغيرة، تُبنى بالذكاء الاصطناعي وتُختبر وتُسلَّم جاهزة.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"كودّي (Koddy)","description":"تطبيقات ومواقع للمشاريع الصغيرة بالذكاء الاصطناعي","telephone":"+249111873796","founder":{"@type":"Person","name":"محمد حسن نجم الدين الحاج"}}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#FFFFFF;--soft:#F4F1FF;--ink:#1B1B3A;--muted:#5C5E7A;--line:#E3DFF7;--brand:#6C4CF1;--sun:#FFC83D;--navy:#14213D;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1226;--soft:#171B38;--ink:#EEF0FF;--muted:#A3A8CC;--line:#2A2F57;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1226;--soft:#171B38;--ink:#EEF0FF;--muted:#A3A8CC;--line:#2A2F57;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.8 Tajawal,"Segoe UI",Tahoma,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--navy)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--navy);color:#fff}
+header .wrap{display:flex;align-items:center;gap:12px;min-height:60px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:22px;color:#fff;text-decoration:none}
+.brand svg{width:34px;height:32px}
+nav{margin-inline-start:auto;display:none;gap:18px}
+nav a{color:#D9DCF5;text-decoration:none;font-weight:500}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;background:var(--brand);color:#fff;font:inherit;font-weight:700;text-decoration:none;border:0;cursor:pointer}
+.btn.sun{background:var(--sun);color:#14213D}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.4);color:#fff}
+header .btn{min-height:40px;padding:0 16px;margin-inline-start:auto}
+.hero{background:var(--navy);color:#fff;text-align:center;padding:48px 0 64px}
+.hero svg{width:130px;height:124px}
+h1{font-size:clamp(28px,6vw,46px);line-height:1.3;font-weight:800;margin:14px 0 10px}
+.hero p{color:#C9CDEE;max-width:560px;margin:0 auto 24px}
+.hero .ai{color:var(--sun)}
+.cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+section{padding:56px 0}
+section.soft{background:var(--soft)}
+h2{font-size:clamp(24px,4.5vw,32px);line-height:1.35;font-weight:800;margin:0 0 6px}
+.lead{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:20px}
+.soft .card{background:var(--bg)}
+.card h3{margin:0 0 6px;font-size:20px}
+.card p{margin:0;color:var(--muted);font-size:16px;line-height:1.7}
+.tag{display:inline-block;background:var(--soft);color:var(--brand);font-weight:700;font-size:13px;border-radius:8px;padding:0 10px;margin-bottom:10px;direction:ltr}
+.soft .tag{background:var(--bg)}
+.card a.lnk{display:inline-block;margin-top:12px;color:var(--brand);font-weight:700}
+.steps{counter-reset:s;display:grid;gap:12px;list-style:none;padding:0;margin:0}
+.steps li{counter-increment:s;display:flex;gap:14px;align-items:flex-start;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.steps li:before{content:counter(s);flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.steps b{display:block}.steps span{color:var(--muted);font-size:16px;line-height:1.6}
+.founder{display:grid;gap:22px;align-items:center;grid-template-columns:1fr}
+.founder img{width:200px;height:200px;border-radius:28px;object-fit:cover;background:#000;border:5px solid var(--sun);justify-self:center}
+.role{color:var(--muted);font-weight:500;margin:0 0 12px!important}
+.founder p{margin:0 0 10px}
+.pill{display:inline-block;background:var(--navy);color:var(--sun);border-radius:999px;padding:0 14px;font-weight:700;font-size:15px}
+.contact{background:var(--navy);color:#fff;text-align:center}
+.contact p{color:#C9CDEE;max-width:520px;margin:0 auto 22px}
+.trust{background:var(--soft);border-bottom:1px solid var(--line)}
+.trust ul{list-style:none;margin:0;padding:14px 0;display:grid;gap:4px 16px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));text-align:center;font-weight:700;font-size:15px}
+.trust li:before{content:"✓ ";color:var(--brand)}
+.fab{position:fixed;inset-inline-start:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:8;background:#128A43;color:#fff;border-radius:999px;min-height:52px;padding:0 18px;display:flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.28)}
+.tel{direction:ltr;unicode-bidi:isolate;display:inline-block;font-weight:700;color:#fff;font-size:20px;margin-top:14px}
+footer{background:var(--navy);color:#9AA0CC;text-align:center;padding:18px 0 88px;font-size:14px;border-top:1px solid #2A3560}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+@media (min-width:700px){nav{display:flex}header .btn{margin-inline-start:0}.founder{grid-template-columns:220px 1fr}.founder img{width:210px;height:210px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+#gate{position:fixed;inset:0;z-index:50;background:#14213D;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:24px;transition:opacity .6s}
+#gate svg{width:120px;height:114px}
+#gate b{font-size:34px;line-height:1.2}
+#gate span{color:#C9CDEE;margin-bottom:10px}
+#gate .btn{width:min(320px,100%)}
+body.lock{overflow:hidden}
+.vc{position:fixed;inset-inline-end:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:8;min-height:52px;padding:0 18px;border-radius:999px;border:1px solid var(--sun);background:var(--navy);color:var(--sun);font:inherit;font-weight:700;cursor:pointer}
+section,.hero{transition:background-color .9s ease,color .9s ease}
+.card,.steps li{color:var(--ink)}
+.live{background:var(--tc)!important;color:#fff!important}
+.live .lead,.live .role{color:#D9DCF5!important}
+#cap{position:fixed;left:16px;right:16px;max-width:640px;margin:0 auto;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:8;background:rgba(10,14,36,.9);color:#fff;border-radius:14px;padding:10px 14px;text-align:center;font-weight:500;font-size:16px;line-height:1.6}
+#cap[hidden]{display:none}
+#studio{position:fixed;inset:0;z-index:60;overflow:auto;background:var(--soft);padding:calc(16px + env(safe-area-inset-top,0px)) 16px calc(40px + env(safe-area-inset-bottom,0px))}
+#studio[hidden]{display:none}
+#studio .in{max-width:560px;margin:0 auto}
+#studio .rc{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
+#studio .rc p{margin:6px 0 12px}
+#studio .ok{color:var(--brand);font-weight:700}
+#studio button:disabled{opacity:.4}
+.gold{width:200px;height:200px;border-radius:28px;background:#000;border:2px solid #C9A227;display:flex;flex-direction:column;align-items:center;justify-content:center;justify-self:center;gap:0}
+.gold b,.gold span{background:linear-gradient(180deg,#F6E27A,#D4A828 55%,#96701A);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.gold b{font-size:56px;line-height:1.25;font-weight:800}
+.gold span{font-size:30px;font-weight:700;letter-spacing:.08em;direction:ltr}
+@media (min-width:700px){.gold{width:210px;height:210px}}
+</style>
+<script id="voicedata">window.VOICE=[];</script>
+</head>
+<body class="lock">
+<div id="gate" role="dialog" aria-modal="true" aria-label="مرحباً بك في كودّي"><svg aria-hidden="true"><use href="#mk"/></svg><b>كودّي</b><span>نحوّل فكرتك لبرنامج بالذكاء الاصطناعي</span><button class="btn sun" id="gYes">ابدأ الجولة الصوتية</button><button class="btn ghost" id="gNo">ادخل بدون صوت</button><button class="btn ghost" id="gVo">جرّب صوتاً آخر</button><span id="gVn" aria-live="polite"></span></div>
+<button class="vc" id="vc" hidden>إيقاف الجولة</button>
+<div id="cap" hidden aria-live="polite"></div>
+<div id="studio" hidden><div class="in"><h2>استوديو تسجيل الصوت</h2><p class="lead">سجّل المقاطع الستة بصوت هادئ وواضح، ثم حمّل الموقع الجاهز بصوتك وارفعه باسم index.html.</p><div id="sm" role="alert" style="color:var(--red,#C0392B);min-height:24px"></div><div id="sl"></div><button class="btn sun" id="sd" style="width:100%">تحميل الموقع الجاهز بصوتك</button></div></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="mk" viewBox="120 0 175 165"><rect x="130" y="34" width="120" height="100" rx="30" fill="#6C4CF1"/><polygon points="150,130 150,160 182,132" fill="#6C4CF1"/><path d="M172 66 L152 84 L172 102" fill="none" stroke="#FFC83D" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M208 66 L228 84 L208 102" fill="none" stroke="#FFC83D" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M197 60 L183 108" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/><path d="M256 6 L263 30 L287 37 L263 44 L256 68 L249 44 L225 37 L249 30 Z" fill="#FFC83D"/></symbol></defs></svg>
+
+<header><div class="wrap">
+<a class="brand" href="#top" aria-label="كودّي"><svg aria-hidden="true"><use href="#mk"/></svg>كودّي</a>
+<nav><a href="#services">خدماتنا</a><a href="#work">أعمالنا</a><a href="#how">كيف نعمل</a><a href="#founder">المؤسس</a><a href="#contact">تواصل</a></nav>
+<a class="btn sun wa" href="#contact">واتساب</a>
+</div></header>
+
+<main id="top">
+<div class="hero" id="hero"><div class="wrap">
+<svg role="img" aria-label="شعار كودّي"><use href="#mk"/></svg>
+<h1>نحوّل فكرتك لبرنامج<br><span class="ai">بالذكاء الاصطناعي</span></h1>
+<p>تطبيقات ومواقع لدكانك وعيادتك ومشروعك. نبنيها بسرعة، ونختبرها بأنفسنا، ونسلّمها جاهزة للاستخدام.</p>
+<div class="cta"><a class="btn sun wa" href="#contact">كلّمنا على واتساب</a><a class="btn ghost" href="#work">شوف أعمالنا</a></div>
+</div></div>
+<div class="trust"><div class="wrap"><ul><li>نختبر كل برنامج قبل التسليم</li><li>دعم وتحديثات بعد التسليم</li><li>بياناتك تبقى عندك أنت</li></ul></div></div>
+
+<section id="services"><div class="wrap">
+<h2>شنو نقدر نعمل ليك؟</h2><p class="lead">من الفكرة لحدّ ما يشتغل في تلفونك.</p>
+<div class="grid">
+<div class="card"><span class="tag">APP</span><h3>تطبيقات للدكاكين والمحلات</h3><p>دفتر ديون، مخزن وأسعار، جرد، ومبيعات يومية، وكل الحسابات تتم تلقائياً.</p></div>
+<div class="card"><span class="tag">WEB</span><h3>مواقع وصفحات تعريفية</h3><p>موقع باسم مشروعك وشعارك، يفتح من أي جهاز ويعرّف الناس بخدماتك.</p></div>
+<div class="card"><span class="tag">BOT</span><h3>أتمتة وبوتات</h3><p>ردود تلقائية وحجز مواعيد وتنظيم طلبات، لتوفّر وقتك وتخدم زبائنك أسرع.</p></div>
+</div></div></section>
+
+<section id="work" class="soft"><div class="wrap">
+<h2>من أعمالنا</h2><p class="lead">برامج حقيقية بنيناها وتعمل الآن.</p>
+<div class="grid">
+<div class="card"><span class="tag">SHOP</span><h3>حسابات أبو شهيرة</h3><p>ديون العملاء مع كشف حساب يُطبع ويُرسل واتساب، ومخزن وأسعار، وجرد، وعمليات بنكية، ومبيعات يومية.</p><a class="lnk" href="https://mohamednjm976-gif.github.io/Abu-shahira/" target="_blank" rel="noopener">جرّب البرنامج</a></div>
+<div class="card"><span class="tag">CLINIC</span><h3>حجز مواعيد للعيادات</h3><p>المريض يختار اليوم والوقت ويحجز، والأوقات المحجوزة تُقفل تلقائياً. نموذج جاهز يُعدَّل باسم أي عيادة.</p></div>
+</div></div></section>
+
+<section id="how"><div class="wrap">
+<h2>كيف نعمل؟</h2><p class="lead">خطوات واضحة، وما في مفاجآت.</p>
+<ol class="steps">
+<li><div><b>نسمع فكرتك</b><span>نسألك عن المشكلة وعن أهم ما تحتاجه في البرنامج.</span></div></li>
+<li><div><b>نتفق على السعر والمدة</b><span>كل شيء مكتوب قبل البدء، وعربون لبدء التنفيذ.</span></div></li>
+<li><div><b>نرسم لك نموذجاً</b><span>تشوف الشكل وتوافق عليه قبل البناء.</span></div></li>
+<li><div><b>نبني ونختبر</b><span>نبني بالذكاء الاصطناعي، ونراجع ونجرّب كل زر بأنفسنا.</span></div></li>
+<li><div><b>نسلّم ونبقى معك</b><span>تشغيل وشرح ودعم بعد التسليم، وتحديثات عند الحاجة.</span></div></li>
+</ol>
+</div></section>
+
+<section id="founder" class="soft"><div class="wrap">
+<div class="founder">
+<div class="gold" role="img" aria-label="كودّي Koddy"><b>كودّي</b><span>Koddy</span></div>
+<div>
+<span class="pill">مؤسس كودّي</span>
+<h2 style="margin:10px 0 2px">محمد حسن نجم الدين الحاج</h2>
+<p class="role">مؤسس كودّي</p>
+<p>أنا صاحب كودّي. أبني برامج للمشاريع الصغيرة بالذكاء الاصطناعي، لكن الذكاء الاصطناعي عندي أداة، والمسؤولية عليّ أنا.</p>
+<p>أراجع كل برنامج وأختبره بنفسي قبل التسليم، وأشرح لك طريقة استخدامه، وأبقى معك بعدها. هدفي أن يشتغل البرنامج لصالحك فعلاً.</p>
+</div></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<h2>عندك فكرة؟</h2>
+<p>ارسل لنا فكرتك على واتساب، ونردّ عليك ونقول لك الممكن والسعر والمدة.</p>
+<a class="btn sun wa" href="#contact">ابدأ المحادثة على واتساب</a><br><a class="tel wa" href="#contact">+249 111 873 796</a>
+</div></section>
+</main>
+
+<a class="fab wa" href="#contact" aria-label="تواصل معنا على واتساب"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 3C7 3 3 6.8 3 11.5c0 1.7.5 3.2 1.4 4.5L3.5 20l4.2-1.1c1.2.7 2.6 1 4.3 1 5 0 9-3.8 9-8.4S17 3 12 3z"/></svg><span>واتساب</span></a>
+<footer><div class="wrap">كودّي | نحوّل فكرتك لبرنامج بالذكاء الاصطناعي<br>المؤسس: محمد حسن نجم الدين الحاج</div></footer>
+
+<script>
+(function(){
+var WA="249111873796";
+var txt=encodeURIComponent("السلام عليكم، عندي فكرة برنامج وأريد التفاصيل.");
+var url="https://wa.me/"+WA+"?text="+txt;
+if(WA){Array.prototype.forEach.call(document.querySelectorAll(".wa"),function(a){a.href=url;a.target="_blank";a.rel="noopener"})}
+})();
+</script>
+<script>
+(function(){
+var g=document.getElementById("gate"),vc=document.getElementById("vc"),cap=document.getElementById("cap"),ss=window.speechSynthesis,AC=null,bed=null,au=null,run=0,on=false;
+var SEG=[
+{id:"hero",c:"#2B1B6B",t:"ماذا لو تحوّلت فكرتك إلى برنامج حقيقي يعمل في هاتفك؟ أهلاً بك في كودّي. نحوّل فكرتك إلى برنامج بالذكاء الاصطناعي."},
+{id:"services",c:"#3B2A8C",t:"خدماتنا؟ تطبيقات للدكاكين والمحلات، ومواقع باسم مشروعك، وبوتات تخدم زبائنك وأنت نائم."},
+{id:"work",c:"#0F4C3A",t:"وهذه ليست وعوداً. هنا برامج حقيقية بنيناها وتعمل الآن، وتقدر تجرّبها بنفسك."},
+{id:"how",c:"#0B4F5C",t:"كيف نعمل؟ نسمع فكرتك، ونتفق على السعر والمدة، ونرسم لك نموذجاً، ثم نبني ونختبر، ونسلّم ونبقى معك."},
+{id:"founder",c:"#5B2A6B",t:"ومن وراء كودّي؟ محمد حسن نجم الدين الحاج. يراجع كل برنامج بنفسه، ويتحمّل مسؤولية كل سطر."},
+{id:"contact",c:"#14213D",t:"فكرتك تنتظرك. ارسل لنا على واتساب وابدأ اليوم. كودّي، نحوّل فكرتك لبرنامج."}
+];window.KSEG=SEG;
+if(ss){ss.getVoices();ss.onvoiceschanged=function(){}}
+function ctx(){AC=AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state==="suspended")AC.resume();return AC}
+function chime(){try{var c=ctx();[[523.25,0],[659.25,.16],[783.99,.32],[1046.5,.5]].forEach(function(p){var o=c.createOscillator(),n=c.createGain(),s=c.currentTime+p[1];o.type="sine";o.frequency.value=p[0];n.gain.setValueAtTime(.0001,s);n.gain.exponentialRampToValueAtTime(.16,s+.03);n.gain.exponentialRampToValueAtTime(.0001,s+1.4);o.connect(n);n.connect(c.destination);o.start(s);o.stop(s+1.5)})}catch(e){}}
+function bedStart(){try{var c=ctx(),n=c.createGain(),f=c.createBiquadFilter(),t=c.currentTime;f.type="lowpass";f.frequency.value=650;n.gain.setValueAtTime(.0001,t);n.gain.exponentialRampToValueAtTime(.045,t+2.5);f.connect(n);n.connect(c.destination);
+ var os=[110,164.8,220].map(function(fr){var o=c.createOscillator();o.type="sine";o.frequency.value=fr;o.connect(f);o.start();return o});bed={n:n,os:os}}catch(e){}}
+function bedStop(){if(!bed)return;var b=bed;bed=null;try{var t=AC.currentTime;b.n.gain.cancelScheduledValues(t);b.n.gain.setValueAtTime(Math.max(b.n.gain.value,.0001),t);b.n.gain.exponentialRampToValueAtTime(.0001,t+1.5);setTimeout(function(){b.os.forEach(function(o){try{o.stop()}catch(e){}})},1700)}catch(e){}}
+function arv(){return ss?ss.getVoices().filter(function(v){return v.lang.toLowerCase().indexOf("ar")===0}):[]}
+function pick(){var vs=arv(),n=null;try{n=localStorage.getItem("kv")}catch(e){}return vs.filter(function(v){return v.name===n})[0]||vs.filter(function(v){return /google|natural|neural|online/i.test(v.name)})[0]||vs[0]||null}
+function tts(t,fin){if(!ss){fin();return}ss.cancel();var u=new SpeechSynthesisUtterance(t),v=pick();u.lang="ar-SA";if(v)u.voice=v;u.rate=.93;u.pitch=1.15;u.volume=.95;u.onend=fin;u.onerror=fin;setTimeout(fin,t.length*100+4000);ss.speak(u)}
+var vi=-1,gVn=document.getElementById("gVn");
+document.getElementById("gVo").addEventListener("click",function(){var vs=arv();if(!vs.length){gVn.textContent="لم يجد المتصفح صوتاً عربياً. جرّب مرة ثانية بعد ثوانٍ.";return}
+ vi=(vi+1)%vs.length;try{localStorage.setItem("kv",vs[vi].name)}catch(e){}
+ ss.cancel();var u=new SpeechSynthesisUtterance("أهلاً بك في كودّي. نحوّل فكرتك إلى برنامج.");u.voice=vs[vi];u.lang="ar-SA";u.rate=.93;u.pitch=1.15;ss.speak(u);gVn.textContent="الصوت "+(vi+1)+" من "+vs.length+" (تم اختياره)"});
+function clear(){Array.prototype.forEach.call(document.querySelectorAll(".live"),function(e){e.classList.remove("live")})}
+function speak(i,tok,next){var s=SEG[i],done=false,used=false,v=(window.VOICE||[])[i];
+ function fin(){if(done||tok!==run)return;done=true;next()}
+ function fb(){if(!used){used=true;tts(s.t,fin)}}
+ if(v){var a=new Audio(v);au=a;a.onended=fin;a.addEventListener("error",fb);var p=a.play();if(p&&p.catch)p.catch(fb)}else fb();
+ setTimeout(fin,60000)}
+function seg(i,tok){if(tok!==run)return;if(i>=SEG.length)return finish();
+ var s=SEG[i],el=document.getElementById(s.id);clear();el.classList.add("live");el.style.setProperty("--tc",s.c);
+ el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth",block:"start"});
+ cap.textContent=s.t;cap.hidden=false;
+ speak(i,tok,function(){setTimeout(function(){seg(i+1,tok)},500)})}
+function finish(){on=false;bedStop();clear();cap.hidden=true;vc.textContent="إعادة الجولة الصوتية"}
+function stopAll(){run++;on=false;try{ss&&ss.cancel()}catch(e){}if(au){au.pause();au=null}bedStop();clear();cap.hidden=true;vc.textContent="إعادة الجولة الصوتية"}
+function start(){run++;var tok=run;on=true;vc.hidden=false;vc.textContent="إيقاف الجولة";chime();bedStart();setTimeout(function(){seg(0,tok)},1100)}
+vc.addEventListener("click",function(){on?stopAll():start()});
+function open(){g.style.opacity=0;document.body.classList.remove("lock");setTimeout(function(){g.remove()},600)}
+document.getElementById("gYes").addEventListener("click",function(){open();start()});
+document.getElementById("gNo").addEventListener("click",open);
+document.getElementById("gYes").focus();
+})();
+</script>
+<script>
+(function(){
+if(location.hash!=="#record"||!window.KSEG)return;
+var g=document.getElementById("gate");if(g)g.remove();document.body.classList.remove("lock");
+document.getElementById("studio").hidden=false;
+var st=document.getElementById("sl"),msg=document.getElementById("sm"),V=(window.VOICE||[]).slice(),rec=null,busy=-1;
+function show(i){var c=st.children[i];c.querySelector(".ok").textContent=V[i]?"(مسجّل)":"";c.querySelector(".o").innerHTML=V[i]?'<audio controls src="'+V[i]+'" style="width:100%;margin-top:10px"></audio>':""}
+window.KSEG.forEach(function(s,i){var d=document.createElement("div");d.className="rc";
+ d.innerHTML='<b>المقطع '+(i+1)+'</b> <span class="ok"></span><p></p><button class="btn" data-i="'+i+'" style="background:#C0392B;color:#fff">ابدأ التسجيل</button><div class="o"></div>';
+ d.querySelector("p").textContent=s.t;st.appendChild(d);show(i)});
+st.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;var i=+b.dataset.i;msg.textContent="";
+ if(busy===i){rec.stop();return}if(busy>-1)return;
+ navigator.mediaDevices.getUserMedia({audio:true}).then(function(s){
+  var ch=[];rec=new MediaRecorder(s);busy=i;b.textContent="إيقاف التسجيل";
+  Array.prototype.forEach.call(st.querySelectorAll("button"),function(x){if(x!==b)x.disabled=true});
+  rec.ondataavailable=function(ev){ch.push(ev.data)};
+  rec.onstop=function(){s.getTracks().forEach(function(t){t.stop()});var bl=new Blob(ch,{type:rec.mimeType||"audio/webm"}),fr=new FileReader();
+   fr.onload=function(){V[i]=fr.result;show(i);b.textContent="إعادة التسجيل";busy=-1;Array.prototype.forEach.call(st.querySelectorAll("button"),function(x){x.disabled=false})};fr.readAsDataURL(bl)};
+  rec.start()}).catch(function(){msg.textContent="ما قدرنا نفتح الميكروفون. اسمح للمتصفح باستخدامه ثم أعد المحاولة."})});
+document.getElementById("sd").addEventListener("click",function(){
+ fetch(location.href.split("#")[0],{cache:"no-store"}).then(function(r){return r.text()}).then(function(t){
+  var tag='<script id="voicedata">window.VOICE='+JSON.stringify(V)+';<\/script>';
+  var out=t.replace(/<script id="voicedata">[\s\S]*?<\/script>/,function(){return tag});
+  var a=document.createElement("a");a.href=URL.createObjectURL(new Blob([out],{type:"text/html"}));a.download="index.html";document.body.appendChild(a);a.click();a.remove();
+  msg.style.color="var(--brand)";msg.textContent="تم التحميل. ارفعه في GitHub باسم index.html."
+ }).catch(function(){msg.textContent="تعذّر التحميل. افتح الاستوديو من رابط الموقع على الإنترنت، وليس من الملف المحمّل."})});
+})();
+</script>
+</body>
+</html>
